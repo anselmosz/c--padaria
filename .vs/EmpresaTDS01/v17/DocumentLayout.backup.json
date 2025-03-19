@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{774AFE0D-5DC3-43F2-B82B-7EB1A79C8D83}|Padaria\\Padaria.csproj|c:\\users\\matheus.sanselmo1\\documents\\visual studio 2022\\empresatds01\\padaria\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{774AFE0D-5DC3-43F2-B82B-7EB1A79C8D83}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774AFE0D-5DC3-43F2-B82B-7EB1A79C8D83}|Padaria\\Padaria.csproj|c:\\users\\matheus.sanselmo1\\documents\\visual studio 2022\\empresatds01\\padaria\\frmsplash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{774AFE0D-5DC3-43F2-B82B-7EB1A79C8D83}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmsplash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmMenu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\Padaria\\frmMenu.cs",
+              "RelativeDocumentMoniker": "Padaria\\frmMenu.cs",
+              "ToolTip": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\Padaria\\frmMenu.cs [Design]",
+              "RelativeToolTip": "Padaria\\frmMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T13:39:09.241Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmSplash.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\Padaria\\frmSplash.cs",
+              "RelativeDocumentMoniker": "Padaria\\frmSplash.cs",
+              "ToolTip": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\Padaria\\frmSplash.cs [Design]",
+              "RelativeToolTip": "Padaria\\frmSplash.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T11:23:45.832Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
