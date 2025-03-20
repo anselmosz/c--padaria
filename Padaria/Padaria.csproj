@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFuncionario.Designer.cs">
+      <DependentUpon>frmFuncionario.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +63,12 @@
     </Compile>
     <Compile Include="frmMenu.Designer.cs">
       <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPesquisarFuncionarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPesquisarFuncionarios.Designer.cs">
+      <DependentUpon>frmPesquisarFuncionarios.cs</DependentUpon>
     </Compile>
     <Compile Include="frmSobre.cs">
       <SubType>Form</SubType>
@@ -72,11 +84,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmFuncionario.resx">
+      <DependentUpon>frmFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMenu.resx">
       <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPesquisarFuncionarios.resx">
+      <DependentUpon>frmPesquisarFuncionarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSobre.resx">
       <DependentUpon>frmSobre.cs</DependentUpon>

@@ -49,7 +49,7 @@
             this.btnUsuario.Name = "btnUsuario";
             this.btnUsuario.Size = new System.Drawing.Size(150, 180);
             this.btnUsuario.TabIndex = 0;
-            this.btnUsuario.Text = "Usuario";
+            this.btnUsuario.Text = "&Usuario";
             this.btnUsuario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnUsuario.UseVisualStyleBackColor = true;
             // 
@@ -61,7 +61,7 @@
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(90, 41);
             this.btnVoltar.TabIndex = 8;
-            this.btnVoltar.Text = "Voltar";
+            this.btnVoltar.Text = "&Voltar";
             this.btnVoltar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnVoltar.UseVisualStyleBackColor = true;
             // 
@@ -74,7 +74,7 @@
             this.btnFuncionarios.Name = "btnFuncionarios";
             this.btnFuncionarios.Size = new System.Drawing.Size(150, 180);
             this.btnFuncionarios.TabIndex = 1;
-            this.btnFuncionarios.Text = "Funcionarios";
+            this.btnFuncionarios.Text = "&Funcionarios";
             this.btnFuncionarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnFuncionarios.UseVisualStyleBackColor = true;
             // 
@@ -87,7 +87,7 @@
             this.btnFornecedores.Name = "btnFornecedores";
             this.btnFornecedores.Size = new System.Drawing.Size(150, 180);
             this.btnFornecedores.TabIndex = 2;
-            this.btnFornecedores.Text = "Fornecedores";
+            this.btnFornecedores.Text = "Fornecedore&s";
             this.btnFornecedores.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnFornecedores.UseVisualStyleBackColor = true;
             // 
@@ -100,7 +100,7 @@
             this.btnProdutos.Name = "btnProdutos";
             this.btnProdutos.Size = new System.Drawing.Size(150, 180);
             this.btnProdutos.TabIndex = 3;
-            this.btnProdutos.Text = "Produtos";
+            this.btnProdutos.Text = "&Produtos";
             this.btnProdutos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnProdutos.UseVisualStyleBackColor = true;
             // 
@@ -113,7 +113,7 @@
             this.btnRelatorio.Name = "btnRelatorio";
             this.btnRelatorio.Size = new System.Drawing.Size(150, 180);
             this.btnRelatorio.TabIndex = 7;
-            this.btnRelatorio.Text = "Relatorio";
+            this.btnRelatorio.Text = "&Relatorio";
             this.btnRelatorio.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnRelatorio.UseVisualStyleBackColor = true;
             // 
@@ -126,7 +126,7 @@
             this.btnCaixa.Name = "btnCaixa";
             this.btnCaixa.Size = new System.Drawing.Size(150, 180);
             this.btnCaixa.TabIndex = 6;
-            this.btnCaixa.Text = "Caixa";
+            this.btnCaixa.Text = "Cai&xa";
             this.btnCaixa.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnCaixa.UseVisualStyleBackColor = true;
             // 
@@ -139,7 +139,7 @@
             this.btnComanda.Name = "btnComanda";
             this.btnComanda.Size = new System.Drawing.Size(150, 180);
             this.btnComanda.TabIndex = 5;
-            this.btnComanda.Text = "Comanda";
+            this.btnComanda.Text = "Comand&a";
             this.btnComanda.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnComanda.UseVisualStyleBackColor = true;
             // 
@@ -152,7 +152,7 @@
             this.btnClientes.Name = "btnClientes";
             this.btnClientes.Size = new System.Drawing.Size(150, 180);
             this.btnClientes.TabIndex = 4;
-            this.btnClientes.Text = "Clientes";
+            this.btnClientes.Text = "&Clientes";
             this.btnClientes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnClientes.UseVisualStyleBackColor = true;
             // 
