@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{774AFE0D-5DC3-43F2-B82B-7EB1A79C8D83}|Padaria\\Padaria.csproj|c:\\users\\matheus.sanselmo1\\documents\\visual studio 2022\\c--padaria\\padaria\\frmpesquisarfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{774AFE0D-5DC3-43F2-B82B-7EB1A79C8D83}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmpesquisarfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{774AFE0D-5DC3-43F2-B82B-7EB1A79C8D83}|Padaria\\Padaria.csproj|c:\\users\\matheus.sanselmo1\\documents\\visual studio 2022\\c--padaria\\padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{774AFE0D-5DC3-43F2-B82B-7EB1A79C8D83}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774AFE0D-5DC3-43F2-B82B-7EB1A79C8D83}|Padaria\\Padaria.csproj|c:\\users\\matheus.sanselmo1\\documents\\visual studio 2022\\c--padaria\\padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{774AFE0D-5DC3-43F2-B82B-7EB1A79C8D83}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,13 +23,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmPesquisarFuncionarios.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\Padaria\\frmPesquisarFuncionarios.cs",
-              "RelativeDocumentMoniker": "Padaria\\frmPesquisarFuncionarios.cs",
-              "ToolTip": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\Padaria\\frmPesquisarFuncionarios.cs [Design]",
-              "RelativeToolTip": "Padaria\\frmPesquisarFuncionarios.cs [Design]",
+              "Title": "frmCalculadora.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\Padaria\\frmCalculadora.cs",
+              "RelativeDocumentMoniker": "Padaria\\frmCalculadora.cs",
+              "ToolTip": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\Padaria\\frmCalculadora.cs",
+              "RelativeToolTip": "Padaria\\frmCalculadora.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T14:27:26.318Z",
+              "WhenOpened": "2025-03-21T13:55:47.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmCalculadora.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\Padaria\\frmCalculadora.cs",
+              "RelativeDocumentMoniker": "Padaria\\frmCalculadora.cs",
+              "ToolTip": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\Padaria\\frmCalculadora.cs [Design]",
+              "RelativeToolTip": "Padaria\\frmCalculadora.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T13:51:01.637Z",
               "EditorCaption": " [Design]"
             }
           ]

@@ -105,7 +105,6 @@
             this.gpbDadosPessoais.TabIndex = 0;
             this.gpbDadosPessoais.TabStop = false;
             this.gpbDadosPessoais.Text = "Dados pessoais";
-            this.gpbDadosPessoais.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // gpbFoto
             // 
@@ -254,7 +253,6 @@
             this.lblCPF.Size = new System.Drawing.Size(40, 20);
             this.lblCPF.TabIndex = 6;
             this.lblCPF.Text = "CPF";
-            this.lblCPF.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // txtbEmail
             // 
@@ -280,7 +278,6 @@
             this.txtbNome.Name = "txtbNome";
             this.txtbNome.Size = new System.Drawing.Size(230, 26);
             this.txtbNome.TabIndex = 2;
-            this.txtbNome.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // lblNome
             // 
@@ -290,7 +287,6 @@
             this.lblNome.Size = new System.Drawing.Size(51, 20);
             this.lblNome.TabIndex = 2;
             this.lblNome.Text = "Nome";
-            this.lblNome.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtbCodigo
             // 
@@ -300,7 +296,6 @@
             this.txtbCodigo.Name = "txtbCodigo";
             this.txtbCodigo.Size = new System.Drawing.Size(110, 26);
             this.txtbCodigo.TabIndex = 1;
-            this.txtbCodigo.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // lblCodigo
             // 
@@ -335,7 +330,6 @@
             this.gpbEndereco.TabIndex = 15;
             this.gpbEndereco.TabStop = false;
             this.gpbEndereco.Text = "Endereço";
-            this.gpbEndereco.Enter += new System.EventHandler(this.gpbEndereco_Enter);
             // 
             // txtbComplemento
             // 
@@ -391,7 +385,6 @@
             this.btnLimparCad.Text = "&Limpar";
             this.btnLimparCad.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnLimparCad.UseVisualStyleBackColor = true;
-            this.btnLimparCad.Click += new System.EventHandler(this.button5_Click);
             // 
             // btnPesqisarCad
             // 
@@ -440,7 +433,6 @@
             this.btnNovo.Text = "&Novo";
             this.btnNovo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnNovo.UseVisualStyleBackColor = true;
-            this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
             // 
             // btnCadastrar
             // 
@@ -453,7 +445,6 @@
             this.btnCadastrar.Text = "&Cadastrar";
             this.btnCadastrar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCadastrar.UseVisualStyleBackColor = true;
-            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // txtbNumero
             // 
@@ -471,7 +462,6 @@
             this.lblNumero.Size = new System.Drawing.Size(65, 20);
             this.lblNumero.TabIndex = 11;
             this.lblNumero.Text = "Numero";
-            this.lblNumero.Click += new System.EventHandler(this.label1_Click_3);
             // 
             // cmbbEstado
             // 
@@ -535,7 +525,6 @@
             this.cmbbEstado.Name = "cmbbEstado";
             this.cmbbEstado.Size = new System.Drawing.Size(87, 28);
             this.cmbbEstado.TabIndex = 22;
-            this.cmbbEstado.SelectedIndexChanged += new System.EventHandler(this.cmbbEstado_SelectedIndexChanged);
             // 
             // lblEstado
             // 
@@ -545,7 +534,6 @@
             this.lblEstado.Size = new System.Drawing.Size(60, 20);
             this.lblEstado.TabIndex = 9;
             this.lblEstado.Text = "Estado";
-            this.lblEstado.Click += new System.EventHandler(this.lblEstado_Click);
             // 
             // txtbCidade
             // 
@@ -554,7 +542,6 @@
             this.txtbCidade.Name = "txtbCidade";
             this.txtbCidade.Size = new System.Drawing.Size(244, 26);
             this.txtbCidade.TabIndex = 21;
-            this.txtbCidade.TextChanged += new System.EventHandler(this.txtbCidade_TextChanged);
             // 
             // lblCidade
             // 
@@ -564,7 +551,6 @@
             this.lblCidade.Size = new System.Drawing.Size(59, 20);
             this.lblCidade.TabIndex = 7;
             this.lblCidade.Text = "Cidade";
-            this.lblCidade.Click += new System.EventHandler(this.lblCidade_Click);
             // 
             // mskbCEP
             // 
@@ -590,7 +576,6 @@
             this.lblBairro.Size = new System.Drawing.Size(51, 20);
             this.lblBairro.TabIndex = 4;
             this.lblBairro.Text = "Bairro";
-            this.lblBairro.Click += new System.EventHandler(this.label1_Click_2);
             // 
             // txtbLogradouro
             // 
@@ -617,7 +602,6 @@
             this.lblCEP.Size = new System.Drawing.Size(41, 20);
             this.lblCEP.TabIndex = 0;
             this.lblCEP.Text = "CEP";
-            this.lblCEP.Click += new System.EventHandler(this.label7_Click);
             // 
             // frmFuncionario
             // 

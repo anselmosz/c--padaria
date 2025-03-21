@@ -58,7 +58,6 @@
             this.lblUsuario.Size = new System.Drawing.Size(64, 20);
             this.lblUsuario.TabIndex = 1;
             this.lblUsuario.Text = "Usuario";
-            this.lblUsuario.Click += new System.EventHandler(this.label1_Click);
             // 
             // lblSenha
             // 
@@ -69,7 +68,6 @@
             this.lblSenha.Size = new System.Drawing.Size(56, 20);
             this.lblSenha.TabIndex = 2;
             this.lblSenha.Text = "Senha";
-            this.lblSenha.Click += new System.EventHandler(this.label2_Click);
             // 
             // btnEntrar
             // 
@@ -80,7 +78,6 @@
             this.btnEntrar.TabIndex = 2;
             this.btnEntrar.Text = "&Entrar";
             this.btnEntrar.UseVisualStyleBackColor = true;
-            this.btnEntrar.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnSair
             // 
@@ -91,7 +88,6 @@
             this.btnSair.TabIndex = 3;
             this.btnSair.Text = "&Sair";
             this.btnSair.UseVisualStyleBackColor = true;
-            this.btnSair.Click += new System.EventHandler(this.button2_Click);
             // 
             // txtboxUsuario
             // 
@@ -101,7 +97,6 @@
             this.txtboxUsuario.Name = "txtboxUsuario";
             this.txtboxUsuario.Size = new System.Drawing.Size(260, 26);
             this.txtboxUsuario.TabIndex = 0;
-            this.txtboxUsuario.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txtboxSenha
             // 
@@ -111,7 +106,6 @@
             this.txtboxSenha.Name = "txtboxSenha";
             this.txtboxSenha.Size = new System.Drawing.Size(260, 26);
             this.txtboxSenha.TabIndex = 1;
-            this.txtboxSenha.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // frmLogin
             // 
@@ -131,7 +125,6 @@
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Padaria - Login";
-            this.Load += new System.EventHandler(this.frmLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pcbLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -26,3 +26,4 @@ C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\Padaria\obj\D
 C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\Padaria\obj\Debug\Padaria.exe
 C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\Padaria\obj\Debug\Padaria.pdb
 C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\Padaria\obj\Debug\Padaria.frmPesquisarFuncionarios.resources
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\Padaria\obj\Debug\Padaria.frmCalculadora.resources
