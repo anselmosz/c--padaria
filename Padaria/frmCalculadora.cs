@@ -18,23 +18,57 @@ namespace Padaria
         }
 
         private void btnCalcular_Click(object sender, EventArgs e)
+        {  
+            // Declaração das variáveis
+            double n1, n2, resp = 0;
+
+            // inicialização das variáveis com valores das caixas de texto
+            n1 = Convert.ToDouble(txtbNum1.Text);
+            n2 = Convert.ToDouble(txtbNum2.Text);
+
+            if(rdbtnSoma.Checked) {
+                resp = n1 + n2;
+            }
+            if(rdbtnSubtrair.Checked) {
+                resp = n1 - n2;
+            }
+            if(rdbtnMultiplicar.Checked) {
+                resp = n1 * n2;
+            }
+            if(rdbtnDividir.Checked) {
+                if (n2 > 0) { 
+                   resp = n1 / n2;
+                } else {
+                    MessageBox.Show("Impossível realizar divisão por 0", 
+                        "Mensagem do sistema",
+                        MessageBoxButtons.YesNoCancel,
+                        MessageBoxIcon.Error,
+                        MessageBoxDefaultButton.Button3);
+                    resp = 0;
+                }
+            }
+            txtbResposta.Text = resp.ToString();
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
         {
-            /* Declarando uma variável no C#
-             *  tipo e nome
-             */
+            // Altera a seleção dos radio buttons para false
+            rdbtnSoma.Checked = false;
+            rdbtnSubtrair.Checked = false;
+            rdbtnMultiplicar.Checked = false;
+            rdbtnDividir.Checked = false;
 
-            int valor1, valor4, resp;
-            double valor2; 
-            float valor3;
-            bool flag;
-            string name;
-            char sexo;
+            // Limpa os valores dentro das caixas de texto
+            txtbNum1.Clear();
+            txtbNum2.Clear();
+            txtbResposta.Clear();
 
-            // Inicializando as variáveis
+            txtbNum1.Focus();
+        }
 
-            valor1 = 10;
-            valor4 = 20;
-            resp = valor1 + valor4;
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

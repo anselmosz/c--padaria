@@ -114,9 +114,9 @@
             this.gpbOperacoes.Controls.Add(this.rdbtnSubtrair);
             this.gpbOperacoes.Controls.Add(this.rdbtnSoma);
             this.gpbOperacoes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gpbOperacoes.Location = new System.Drawing.Point(327, 41);
+            this.gpbOperacoes.Location = new System.Drawing.Point(273, 69);
             this.gpbOperacoes.Name = "gpbOperacoes";
-            this.gpbOperacoes.Size = new System.Drawing.Size(181, 214);
+            this.gpbOperacoes.Size = new System.Drawing.Size(148, 180);
             this.gpbOperacoes.TabIndex = 3;
             this.gpbOperacoes.TabStop = false;
             this.gpbOperacoes.Text = "Operações";
@@ -124,7 +124,7 @@
             // rdbtnDividir
             // 
             this.rdbtnDividir.AutoSize = true;
-            this.rdbtnDividir.Location = new System.Drawing.Point(35, 146);
+            this.rdbtnDividir.Location = new System.Drawing.Point(17, 133);
             this.rdbtnDividir.Name = "rdbtnDividir";
             this.rdbtnDividir.Size = new System.Drawing.Size(79, 28);
             this.rdbtnDividir.TabIndex = 7;
@@ -135,7 +135,7 @@
             // rdbtnMultiplicar
             // 
             this.rdbtnMultiplicar.AutoSize = true;
-            this.rdbtnMultiplicar.Location = new System.Drawing.Point(35, 112);
+            this.rdbtnMultiplicar.Location = new System.Drawing.Point(17, 99);
             this.rdbtnMultiplicar.Name = "rdbtnMultiplicar";
             this.rdbtnMultiplicar.Size = new System.Drawing.Size(112, 28);
             this.rdbtnMultiplicar.TabIndex = 6;
@@ -146,7 +146,7 @@
             // rdbtnSubtrair
             // 
             this.rdbtnSubtrair.AutoSize = true;
-            this.rdbtnSubtrair.Location = new System.Drawing.Point(35, 78);
+            this.rdbtnSubtrair.Location = new System.Drawing.Point(17, 65);
             this.rdbtnSubtrair.Name = "rdbtnSubtrair";
             this.rdbtnSubtrair.Size = new System.Drawing.Size(92, 28);
             this.rdbtnSubtrair.TabIndex = 5;
@@ -157,7 +157,7 @@
             // rdbtnSoma
             // 
             this.rdbtnSoma.AutoSize = true;
-            this.rdbtnSoma.Location = new System.Drawing.Point(35, 44);
+            this.rdbtnSoma.Location = new System.Drawing.Point(17, 31);
             this.rdbtnSoma.Name = "rdbtnSoma";
             this.rdbtnSoma.Size = new System.Drawing.Size(83, 28);
             this.rdbtnSoma.TabIndex = 4;
@@ -168,7 +168,7 @@
             // btnCalcular
             // 
             this.btnCalcular.Image = ((System.Drawing.Image)(resources.GetObject("btnCalcular.Image")));
-            this.btnCalcular.Location = new System.Drawing.Point(622, 84);
+            this.btnCalcular.Location = new System.Drawing.Point(480, 80);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(120, 50);
             this.btnCalcular.TabIndex = 8;
@@ -180,30 +180,32 @@
             // btnLimpar
             // 
             this.btnLimpar.Image = ((System.Drawing.Image)(resources.GetObject("btnLimpar.Image")));
-            this.btnLimpar.Location = new System.Drawing.Point(622, 140);
+            this.btnLimpar.Location = new System.Drawing.Point(480, 136);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(120, 50);
             this.btnLimpar.TabIndex = 9;
             this.btnLimpar.Text = "&Limpar";
             this.btnLimpar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnSair
             // 
             this.btnSair.Image = ((System.Drawing.Image)(resources.GetObject("btnSair.Image")));
-            this.btnSair.Location = new System.Drawing.Point(622, 196);
+            this.btnSair.Location = new System.Drawing.Point(480, 192);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(120, 50);
             this.btnSair.TabIndex = 10;
             this.btnSair.Text = "&Sair";
             this.btnSair.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // frmCalculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 361);
+            this.ClientSize = new System.Drawing.Size(664, 361);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnCalcular);
@@ -218,6 +220,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmCalculadora";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Padaria - Calculadora";
             this.gpbOperacoes.ResumeLayout(false);
             this.gpbOperacoes.PerformLayout();
