@@ -22,30 +22,59 @@ namespace Padaria
             // Declaração das variáveis
             double n1, n2, resp = 0;
 
+            try
+            {
             // inicialização das variáveis com valores das caixas de texto
             n1 = Convert.ToDouble(txtbNum1.Text);
             n2 = Convert.ToDouble(txtbNum2.Text);
-
-            if(rdbtnSoma.Checked) {
-                resp = n1 + n2;
-            }
-            if(rdbtnSubtrair.Checked) {
-                resp = n1 - n2;
-            }
-            if(rdbtnMultiplicar.Checked) {
-                resp = n1 * n2;
-            }
-            if(rdbtnDividir.Checked) {
-                if (n2 > 0) { 
-                   resp = n1 / n2;
-                } else {
-                    MessageBox.Show("Impossível realizar divisão por 0", 
+                if (rdbtnDividir.Checked == false && rdbtnMultiplicar.Checked == false && rdbtnSoma.Checked == false && rdbtnSubtrair.Checked == false) {
+                    MessageBox.Show("Selecione uma operação!",
                         "Mensagem do sistema",
-                        MessageBoxButtons.YesNoCancel,
+                        MessageBoxButtons.OK,
                         MessageBoxIcon.Error,
-                        MessageBoxDefaultButton.Button3);
-                    resp = 0;
+                        MessageBoxDefaultButton.Button1);
+                } else {
+                    if (rdbtnSoma.Checked)
+                    {
+                        resp = n1 + n2;
+                    }
+                    if (rdbtnSubtrair.Checked)
+                    {
+                        resp = n1 - n2;
+                    }
+                    if (rdbtnMultiplicar.Checked)
+                    {
+                        resp = n1 * n2;
+                    }
+                    if (rdbtnDividir.Checked)
+                    {
+                        if (n2 > 0)
+                        {
+                            resp = n1 / n2;
+                        }
+                        else
+                        {
+                            MessageBox.Show("Impossível realizar divisão por 0",
+                                "Mensagem do sistema",
+                                MessageBoxButtons.YesNoCancel,
+                                MessageBoxIcon.Error,
+                                MessageBoxDefaultButton.Button3);
+                            txtbResposta.Clear();
+                        }
+                    }
                 }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Insira valores válidos!",
+                        "Mensagem do sistema",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error,
+                        MessageBoxDefaultButton.Button1);
+                txtbNum1.Clear();
+                txtbNum1.Focus();
+                txtbNum2.Clear();
+                txtbResposta.Clear();
             }
             txtbResposta.Text = resp.ToString();
         }

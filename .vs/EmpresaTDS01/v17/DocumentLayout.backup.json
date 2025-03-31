@@ -3,12 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{774AFE0D-5DC3-43F2-B82B-7EB1A79C8D83}|Padaria\\Padaria.csproj|c:\\users\\matheus.sanselmo1\\documents\\visual studio 2022\\c--padaria\\padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{774AFE0D-5DC3-43F2-B82B-7EB1A79C8D83}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49D09AD3-80A0-43AC-9EA6-8AC8DB2E7C36}|..\\FolhaDePagamento\\FolhaDePagamento.csproj|c:\\users\\matheus.sanselmo1\\documents\\visual studio 2022\\folhadepagamento\\folhadepagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{774AFE0D-5DC3-43F2-B82B-7EB1A79C8D83}|Padaria\\Padaria.csproj|C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{774AFE0D-5DC3-43F2-B82B-7EB1A79C8D83}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{49D09AD3-80A0-43AC-9EA6-8AC8DB2E7C36}|..\\FolhaDePagamento\\FolhaDePagamento.csproj|c:\\users\\matheus.sanselmo1\\documents\\visual studio 2022\\folhadepagamento\\folhadepagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,26 +21,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmCalculadora.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\Padaria\\frmCalculadora.cs",
-              "RelativeDocumentMoniker": "Padaria\\frmCalculadora.cs",
-              "ToolTip": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\Padaria\\frmCalculadora.cs",
-              "RelativeToolTip": "Padaria\\frmCalculadora.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAADEAAAAwAAAAAAAAAA==",
+              "Title": "FolhaDePagamento.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\FolhaDePagamento\\FolhaDePagamento.cs",
+              "RelativeDocumentMoniker": "..\\FolhaDePagamento\\FolhaDePagamento.cs",
+              "ToolTip": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\FolhaDePagamento\\FolhaDePagamento.cs",
+              "RelativeToolTip": "..\\FolhaDePagamento\\FolhaDePagamento.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwCQAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T11:19:27.573Z",
+              "WhenOpened": "2025-03-31T13:55:13.169Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmCalculadora.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\Padaria\\frmCalculadora.cs",
-              "RelativeDocumentMoniker": "Padaria\\frmCalculadora.cs",
-              "ToolTip": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\Padaria\\frmCalculadora.cs [Design]",
-              "RelativeToolTip": "Padaria\\frmCalculadora.cs [Design]",
+              "Title": "FolhaDePagamento.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\FolhaDePagamento\\FolhaDePagamento.cs",
+              "RelativeDocumentMoniker": "..\\FolhaDePagamento\\FolhaDePagamento.cs",
+              "ToolTip": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\FolhaDePagamento\\FolhaDePagamento.cs [Design]",
+              "RelativeToolTip": "..\\FolhaDePagamento\\FolhaDePagamento.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T11:14:46.183Z"
+              "WhenOpened": "2025-03-31T11:47:30.722Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

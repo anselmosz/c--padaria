@@ -1,0 +1,10 @@
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\FolhaDePagamento\obj\Debug\FolhaDePagamento.csproj.AssemblyReference.cache
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\FolhaDePagamento\obj\Debug\FolhaDePagamento.FolhaDePagamento.resources
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\FolhaDePagamento\obj\Debug\FolhaDePagamento.Properties.Resources.resources
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\FolhaDePagamento\obj\Debug\FolhaDePagamento.csproj.GenerateResource.cache
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\FolhaDePagamento\obj\Debug\FolhaDePagamento.csproj.CoreCompileInputs.cache
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\FolhaDePagamento\bin\Debug\FolhaDePagamento.exe.config
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\FolhaDePagamento\bin\Debug\FolhaDePagamento.exe
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\FolhaDePagamento\bin\Debug\FolhaDePagamento.pdb
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\FolhaDePagamento\obj\Debug\FolhaDePagamento.exe
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\FolhaDePagamento\obj\Debug\FolhaDePagamento.pdb
