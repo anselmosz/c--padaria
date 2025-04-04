@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FolhaDePagamento
+namespace CalculadoraIMC
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace FolhaDePagamento
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FolhaDePagamento());
+            Application.Run(new frmCalculaIMC());
         }
     }
 }

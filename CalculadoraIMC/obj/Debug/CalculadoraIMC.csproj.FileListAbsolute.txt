@@ -1,0 +1,10 @@
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\CalculadoraIMC\bin\Debug\CalculadoraIMC.exe.config
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\CalculadoraIMC\bin\Debug\CalculadoraIMC.exe
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\CalculadoraIMC\bin\Debug\CalculadoraIMC.pdb
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\CalculadoraIMC\obj\Debug\CalculadoraIMC.csproj.AssemblyReference.cache
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\CalculadoraIMC\obj\Debug\CalculadoraIMC.frmCalculaIMC.resources
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\CalculadoraIMC\obj\Debug\CalculadoraIMC.Properties.Resources.resources
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\CalculadoraIMC\obj\Debug\CalculadoraIMC.csproj.GenerateResource.cache
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\CalculadoraIMC\obj\Debug\CalculadoraIMC.csproj.CoreCompileInputs.cache
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\CalculadoraIMC\obj\Debug\CalculadoraIMC.exe
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\CalculadoraIMC\obj\Debug\CalculadoraIMC.pdb

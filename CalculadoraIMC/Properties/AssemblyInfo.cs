@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("FolhaDePagamento")]
+[assembly: AssemblyTitle("CalculadoraIMC")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("FolhaDePagamento")]
+[assembly: AssemblyProduct("CalculadoraIMC")]
 [assembly: AssemblyCopyright("Copyright ©  2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("49d09ad3-80a0-43ac-9ea6-8ac8db2e7c36")]
+[assembly: Guid("e5a24636-1ed2-42ff-a6c1-dfefba242fab")]
 
 // Version information for an assembly consists of the following four values:
 //

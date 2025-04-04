@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FolhaDePagamento.Properties
+namespace CalculadoraIMC.Properties
 {
 
 

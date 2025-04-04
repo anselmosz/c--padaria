@@ -3,10 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49D09AD3-80A0-43AC-9EA6-8AC8DB2E7C36}|..\\FolhaDePagamento\\FolhaDePagamento.csproj|c:\\users\\matheus.sanselmo1\\documents\\visual studio 2022\\folhadepagamento\\folhadepagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5A24636-1ED2-42FF-A6C1-DFEFBA242FAB}|CalculadoraIMC\\CalculadoraIMC.csproj|c:\\users\\matheus.sanselmo1\\documents\\visual studio 2022\\c--padaria\\calculadoraimc\\frmcalculaimc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E5A24636-1ED2-42FF-A6C1-DFEFBA242FAB}|CalculadoraIMC\\CalculadoraIMC.csproj|solutionrelative:calculadoraimc\\frmcalculaimc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49D09AD3-80A0-43AC-9EA6-8AC8DB2E7C36}|..\\FolhaDePagamento\\FolhaDePagamento.csproj|c:\\users\\matheus.sanselmo1\\documents\\visual studio 2022\\folhadepagamento\\folhadepagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E5A24636-1ED2-42FF-A6C1-DFEFBA242FAB}|CalculadoraIMC\\CalculadoraIMC.csproj|c:\\users\\matheus.sanselmo1\\documents\\visual studio 2022\\c--padaria\\calculadoraimc\\frmcalculaimc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A24636-1ED2-42FF-A6C1-DFEFBA242FAB}|CalculadoraIMC\\CalculadoraIMC.csproj|solutionrelative:calculadoraimc\\frmcalculaimc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -16,31 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FolhaDePagamento.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\FolhaDePagamento\\FolhaDePagamento.cs",
-              "RelativeDocumentMoniker": "..\\FolhaDePagamento\\FolhaDePagamento.cs",
-              "ToolTip": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\FolhaDePagamento\\FolhaDePagamento.cs",
-              "RelativeToolTip": "..\\FolhaDePagamento\\FolhaDePagamento.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAqwCQAAAA/AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "frmCalculaIMC.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\CalculadoraIMC\\frmCalculaIMC.cs",
+              "RelativeDocumentMoniker": "CalculadoraIMC\\frmCalculaIMC.cs",
+              "ToolTip": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\CalculadoraIMC\\frmCalculaIMC.cs",
+              "RelativeToolTip": "CalculadoraIMC\\frmCalculaIMC.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAADwv1kAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T13:55:13.169Z",
+              "WhenOpened": "2025-04-04T12:13:51.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FolhaDePagamento.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\FolhaDePagamento\\FolhaDePagamento.cs",
-              "RelativeDocumentMoniker": "..\\FolhaDePagamento\\FolhaDePagamento.cs",
-              "ToolTip": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\FolhaDePagamento\\FolhaDePagamento.cs [Design]",
-              "RelativeToolTip": "..\\FolhaDePagamento\\FolhaDePagamento.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "frmCalculaIMC.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\CalculadoraIMC\\frmCalculaIMC.cs",
+              "RelativeDocumentMoniker": "CalculadoraIMC\\frmCalculaIMC.cs",
+              "ToolTip": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\CalculadoraIMC\\frmCalculaIMC.cs [Design]",
+              "RelativeToolTip": "CalculadoraIMC\\frmCalculaIMC.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T11:47:30.722Z",
+              "WhenOpened": "2025-04-04T11:58:01.622Z",
               "EditorCaption": " [Design]"
             }
           ]
