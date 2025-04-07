@@ -1,0 +1,10 @@
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\ProjetoOrientacaoObjeto\bin\Debug\ProjetoOrientacaoObjeto.exe.config
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\ProjetoOrientacaoObjeto\bin\Debug\ProjetoOrientacaoObjeto.exe
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\ProjetoOrientacaoObjeto\bin\Debug\ProjetoOrientacaoObjeto.pdb
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\ProjetoOrientacaoObjeto\obj\Debug\ProjetoOrientacaoObjeto.csproj.AssemblyReference.cache
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\ProjetoOrientacaoObjeto\obj\Debug\ProjetoOrientacaoObjeto.frmExecutaObjeto.resources
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\ProjetoOrientacaoObjeto\obj\Debug\ProjetoOrientacaoObjeto.Properties.Resources.resources
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\ProjetoOrientacaoObjeto\obj\Debug\ProjetoOrientacaoObjeto.csproj.GenerateResource.cache
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\ProjetoOrientacaoObjeto\obj\Debug\ProjetoOrientacaoObjeto.csproj.CoreCompileInputs.cache
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\ProjetoOrientacaoObjeto\obj\Debug\ProjetoOrientacaoObjeto.exe
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\ProjetoOrientacaoObjeto\obj\Debug\ProjetoOrientacaoObjeto.pdb

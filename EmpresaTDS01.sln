@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolhaDePagamento", "..\Folh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraIMC", "CalculadoraIMC\CalculadoraIMC.csproj", "{E5A24636-1ED2-42FF-A6C1-DFEFBA242FAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoOrientacaoObjeto", "ProjetoOrientacaoObjeto\ProjetoOrientacaoObjeto.csproj", "{C550CDC2-19A3-43B1-AFE6-41DC478096D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E5A24636-1ED2-42FF-A6C1-DFEFBA242FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5A24636-1ED2-42FF-A6C1-DFEFBA242FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5A24636-1ED2-42FF-A6C1-DFEFBA242FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C550CDC2-19A3-43B1-AFE6-41DC478096D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C550CDC2-19A3-43B1-AFE6-41DC478096D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C550CDC2-19A3-43B1-AFE6-41DC478096D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C550CDC2-19A3-43B1-AFE6-41DC478096D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
