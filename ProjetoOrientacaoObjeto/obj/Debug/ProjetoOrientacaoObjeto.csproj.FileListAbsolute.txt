@@ -8,3 +8,4 @@ C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\ProjetoOrient
 C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\ProjetoOrientacaoObjeto\obj\Debug\ProjetoOrientacaoObjeto.csproj.CoreCompileInputs.cache
 C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\ProjetoOrientacaoObjeto\obj\Debug\ProjetoOrientacaoObjeto.exe
 C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\ProjetoOrientacaoObjeto\obj\Debug\ProjetoOrientacaoObjeto.pdb
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\ProjetoOrientacaoObjeto\obj\Debug\ProjetoOrientacaoObjeto.frmExecutaPessoa.resources
