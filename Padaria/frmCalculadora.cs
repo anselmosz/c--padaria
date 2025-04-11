@@ -19,6 +19,9 @@ namespace Padaria
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {  
+
+            Calculadora2 calc = new Calculadora2();
+
             // Declaração das variáveis
             double n1, n2, resp = 0;
 
@@ -36,21 +39,21 @@ namespace Padaria
                 } else {
                     if (rdbtnSoma.Checked)
                     {
-                        resp = n1 + n2;
+                        resp = calc.somar(n1, n2);
                     }
                     if (rdbtnSubtrair.Checked)
                     {
-                        resp = n1 - n2;
+                        resp = calc.somar(n1, n2);
                     }
                     if (rdbtnMultiplicar.Checked)
                     {
-                        resp = n1 * n2;
+                        resp = calc.somar(n1, n2);
                     }
                     if (rdbtnDividir.Checked)
                     {
                         if (n2 > 0)
                         {
-                            resp = n1 / n2;
+                            resp = calc.somar(n1, n2);
                         }
                         else
                         {

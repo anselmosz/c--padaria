@@ -28,32 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.cbbWishlist = new System.Windows.Forms.ComboBox();
+            this.cbbEstados = new System.Windows.Forms.ComboBox();
             this.btnCarregarEstado = new System.Windows.Forms.Button();
             this.ltbEstado = new System.Windows.Forms.ListBox();
-            this.btnWishlist = new System.Windows.Forms.Button();
+            this.btnLimparLista = new System.Windows.Forms.Button();
             this.lblListaEstados = new System.Windows.Forms.Label();
             this.lblListadeEstados = new System.Windows.Forms.Label();
             this.lblDigitarEstado = new System.Windows.Forms.Label();
             this.txtInserirEstado = new System.Windows.Forms.TextBox();
+            this.btnLimparTxtBox = new System.Windows.Forms.Button();
+            this.btnLimparSeleção = new System.Windows.Forms.Button();
+            this.btnCarregarNaLista = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // cbbWishlist
+            // cbbEstados
             // 
-            this.cbbWishlist.FormattingEnabled = true;
-            this.cbbWishlist.Location = new System.Drawing.Point(12, 135);
-            this.cbbWishlist.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.cbbWishlist.Name = "cbbWishlist";
-            this.cbbWishlist.Size = new System.Drawing.Size(183, 28);
-            this.cbbWishlist.TabIndex = 1;
+            this.cbbEstados.FormattingEnabled = true;
+            this.cbbEstados.Items.AddRange(new object[] {
+            "--- Selecione um item ---"});
+            this.cbbEstados.Location = new System.Drawing.Point(13, 43);
+            this.cbbEstados.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cbbEstados.Name = "cbbEstados";
+            this.cbbEstados.Size = new System.Drawing.Size(232, 28);
+            this.cbbEstados.TabIndex = 4;
             // 
             // btnCarregarEstado
             // 
-            this.btnCarregarEstado.Location = new System.Drawing.Point(12, 68);
+            this.btnCarregarEstado.Location = new System.Drawing.Point(12, 277);
             this.btnCarregarEstado.Name = "btnCarregarEstado";
-            this.btnCarregarEstado.Size = new System.Drawing.Size(183, 34);
+            this.btnCarregarEstado.Size = new System.Drawing.Size(103, 31);
             this.btnCarregarEstado.TabIndex = 1;
-            this.btnCarregarEstado.Text = "Carregar estado";
+            this.btnCarregarEstado.Text = "Inserir";
             this.btnCarregarEstado.UseVisualStyleBackColor = true;
             this.btnCarregarEstado.Click += new System.EventHandler(this.btnCarregarEstado_Click);
             // 
@@ -61,25 +66,25 @@
             // 
             this.ltbEstado.FormattingEnabled = true;
             this.ltbEstado.ItemHeight = 20;
-            this.ltbEstado.Location = new System.Drawing.Point(226, 76);
+            this.ltbEstado.Location = new System.Drawing.Point(273, 43);
             this.ltbEstado.Name = "ltbEstado";
-            this.ltbEstado.Size = new System.Drawing.Size(206, 224);
-            this.ltbEstado.TabIndex = 3;
+            this.ltbEstado.Size = new System.Drawing.Size(232, 264);
+            this.ltbEstado.TabIndex = 5;
             // 
-            // btnWishlist
+            // btnLimparLista
             // 
-            this.btnWishlist.Location = new System.Drawing.Point(226, 36);
-            this.btnWishlist.Name = "btnWishlist";
-            this.btnWishlist.Size = new System.Drawing.Size(206, 34);
-            this.btnWishlist.TabIndex = 2;
-            this.btnWishlist.Text = "Carrega Lista de Estados";
-            this.btnWishlist.UseVisualStyleBackColor = true;
-            this.btnWishlist.Click += new System.EventHandler(this.btnWishlist_Click);
+            this.btnLimparLista.Location = new System.Drawing.Point(273, 351);
+            this.btnLimparLista.Name = "btnLimparLista";
+            this.btnLimparLista.Size = new System.Drawing.Size(232, 31);
+            this.btnLimparLista.TabIndex = 7;
+            this.btnLimparLista.Text = "Limpar Lista de Estados";
+            this.btnLimparLista.UseVisualStyleBackColor = true;
+            this.btnLimparLista.Click += new System.EventHandler(this.btnLimparLista_Click);
             // 
             // lblListaEstados
             // 
             this.lblListaEstados.AutoSize = true;
-            this.lblListaEstados.Location = new System.Drawing.Point(12, 110);
+            this.lblListaEstados.Location = new System.Drawing.Point(12, 20);
             this.lblListaEstados.Name = "lblListaEstados";
             this.lblListaEstados.Size = new System.Drawing.Size(68, 20);
             this.lblListaEstados.TabIndex = 4;
@@ -88,16 +93,16 @@
             // lblListadeEstados
             // 
             this.lblListadeEstados.AutoSize = true;
-            this.lblListadeEstados.Location = new System.Drawing.Point(222, 11);
+            this.lblListadeEstados.Location = new System.Drawing.Point(278, 20);
             this.lblListadeEstados.Name = "lblListadeEstados";
-            this.lblListadeEstados.Size = new System.Drawing.Size(127, 20);
+            this.lblListadeEstados.Size = new System.Drawing.Size(128, 20);
             this.lblListadeEstados.TabIndex = 5;
-            this.lblListadeEstados.Text = "Lista de Desejos";
+            this.lblListadeEstados.Text = "Lista de Estados";
             // 
             // lblDigitarEstado
             // 
             this.lblDigitarEstado.AutoSize = true;
-            this.lblDigitarEstado.Location = new System.Drawing.Point(8, 13);
+            this.lblDigitarEstado.Location = new System.Drawing.Point(12, 221);
             this.lblDigitarEstado.Name = "lblDigitarEstado";
             this.lblDigitarEstado.Size = new System.Drawing.Size(118, 20);
             this.lblDigitarEstado.TabIndex = 6;
@@ -105,25 +110,59 @@
             // 
             // txtInserirEstado
             // 
-            this.txtInserirEstado.Location = new System.Drawing.Point(12, 36);
+            this.txtInserirEstado.Location = new System.Drawing.Point(12, 244);
+            this.txtInserirEstado.MaxLength = 100;
             this.txtInserirEstado.Name = "txtInserirEstado";
-            this.txtInserirEstado.Size = new System.Drawing.Size(183, 26);
+            this.txtInserirEstado.Size = new System.Drawing.Size(232, 26);
             this.txtInserirEstado.TabIndex = 0;
             this.txtInserirEstado.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtInserirEstado_KeyDown);
+            // 
+            // btnLimparTxtBox
+            // 
+            this.btnLimparTxtBox.Location = new System.Drawing.Point(141, 277);
+            this.btnLimparTxtBox.Name = "btnLimparTxtBox";
+            this.btnLimparTxtBox.Size = new System.Drawing.Size(103, 31);
+            this.btnLimparTxtBox.TabIndex = 2;
+            this.btnLimparTxtBox.Text = "Limpar";
+            this.btnLimparTxtBox.UseVisualStyleBackColor = true;
+            this.btnLimparTxtBox.Click += new System.EventHandler(this.btnLimparTxtBox_Click);
+            // 
+            // btnLimparSeleção
+            // 
+            this.btnLimparSeleção.Location = new System.Drawing.Point(273, 314);
+            this.btnLimparSeleção.Name = "btnLimparSeleção";
+            this.btnLimparSeleção.Size = new System.Drawing.Size(232, 31);
+            this.btnLimparSeleção.TabIndex = 6;
+            this.btnLimparSeleção.Text = "Remover item selecionado";
+            this.btnLimparSeleção.UseVisualStyleBackColor = true;
+            this.btnLimparSeleção.Click += new System.EventHandler(this.btnLimparSeleção_Click);
+            // 
+            // btnCarregarNaLista
+            // 
+            this.btnCarregarNaLista.Location = new System.Drawing.Point(12, 314);
+            this.btnCarregarNaLista.Name = "btnCarregarNaLista";
+            this.btnCarregarNaLista.Size = new System.Drawing.Size(232, 31);
+            this.btnCarregarNaLista.TabIndex = 3;
+            this.btnCarregarNaLista.Text = "Carregar Estado";
+            this.btnCarregarNaLista.UseVisualStyleBackColor = true;
+            this.btnCarregarNaLista.Click += new System.EventHandler(this.btnCarregarNaLista_Click);
             // 
             // frmRepeticao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(449, 465);
+            this.ClientSize = new System.Drawing.Size(517, 394);
+            this.Controls.Add(this.btnCarregarNaLista);
+            this.Controls.Add(this.btnLimparSeleção);
+            this.Controls.Add(this.btnLimparTxtBox);
             this.Controls.Add(this.txtInserirEstado);
             this.Controls.Add(this.lblDigitarEstado);
             this.Controls.Add(this.lblListadeEstados);
             this.Controls.Add(this.lblListaEstados);
-            this.Controls.Add(this.btnWishlist);
+            this.Controls.Add(this.btnLimparLista);
             this.Controls.Add(this.ltbEstado);
             this.Controls.Add(this.btnCarregarEstado);
-            this.Controls.Add(this.cbbWishlist);
+            this.Controls.Add(this.cbbEstados);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmRepeticao";
@@ -136,13 +175,16 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox cbbWishlist;
+        private System.Windows.Forms.ComboBox cbbEstados;
         private System.Windows.Forms.Button btnCarregarEstado;
         private System.Windows.Forms.ListBox ltbEstado;
-        private System.Windows.Forms.Button btnWishlist;
+        private System.Windows.Forms.Button btnLimparLista;
         private System.Windows.Forms.Label lblListaEstados;
         private System.Windows.Forms.Label lblListadeEstados;
         private System.Windows.Forms.Label lblDigitarEstado;
         private System.Windows.Forms.TextBox txtInserirEstado;
+        private System.Windows.Forms.Button btnLimparTxtBox;
+        private System.Windows.Forms.Button btnLimparSeleção;
+        private System.Windows.Forms.Button btnCarregarNaLista;
     }
 }
