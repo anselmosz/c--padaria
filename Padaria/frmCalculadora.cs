@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,6 +18,31 @@ namespace Padaria
             InitializeComponent();
         }
 
+        public void desabilitarLimparCampos()
+        {
+
+            // Altera a seleção dos radio buttons para false
+            rdbtnSoma.Checked = false;
+            rdbtnSubtrair.Checked = false;
+            rdbtnMultiplicar.Checked = false;
+            rdbtnDividir.Checked = false;
+
+            // Altera a seleção dos radio buttons para false
+            rdbtnSoma.Checked = false;
+            rdbtnSubtrair.Checked = false;
+            rdbtnMultiplicar.Checked = false;
+            rdbtnDividir.Checked = false;
+        }
+
+        public void limparCampos()
+        {
+            // Limpa os valores dentro das caixas de texto
+            txtbNum1.Clear();
+            txtbNum1.Focus();
+            txtbNum2.Clear();
+            txtbResposta.Clear();
+        }
+
         private void btnCalcular_Click(object sender, EventArgs e)
         {  
 
@@ -27,9 +53,10 @@ namespace Padaria
 
             try
             {
-            // inicialização das variáveis com valores das caixas de texto
-            n1 = Convert.ToDouble(txtbNum1.Text);
-            n2 = Convert.ToDouble(txtbNum2.Text);
+                // inicialização das variáveis com valores das caixas de texto
+                n1 = Convert.ToDouble(txtbNum1.Text);
+                n2 = Convert.ToDouble(txtbNum2.Text);
+
                 if (rdbtnDividir.Checked == false && rdbtnMultiplicar.Checked == false && rdbtnSoma.Checked == false && rdbtnSubtrair.Checked == false) {
                     MessageBox.Show("Selecione uma operação!",
                         "Mensagem do sistema",
@@ -43,26 +70,26 @@ namespace Padaria
                     }
                     if (rdbtnSubtrair.Checked)
                     {
-                        resp = calc.somar(n1, n2);
+                        resp = calc.subtrair(n1, n2);
                     }
                     if (rdbtnMultiplicar.Checked)
                     {
-                        resp = calc.somar(n1, n2);
+                        resp = calc.multiplicar(n1, n2);
                     }
                     if (rdbtnDividir.Checked)
                     {
-                        if (n2 > 0)
-                        {
-                            resp = calc.somar(n1, n2);
-                        }
-                        else
+                        if (n2 <= 0)
                         {
                             MessageBox.Show("Impossível realizar divisão por 0",
                                 "Mensagem do sistema",
-                                MessageBoxButtons.YesNoCancel,
+                                MessageBoxButtons.OK,
                                 MessageBoxIcon.Error,
-                                MessageBoxDefaultButton.Button3);
-                            txtbResposta.Clear();
+                                MessageBoxDefaultButton.Button1);
+                            desabilitarLimparCampos();
+                        }
+                        else
+                        {
+                            resp = calc.dividir(n1, n2);
                         }
                     }
                 }
@@ -74,28 +101,14 @@ namespace Padaria
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Error,
                         MessageBoxDefaultButton.Button1);
-                txtbNum1.Clear();
-                txtbNum1.Focus();
-                txtbNum2.Clear();
-                txtbResposta.Clear();
+                limparCampos();
             }
             txtbResposta.Text = resp.ToString();
         }
 
         private void btnLimpar_Click(object sender, EventArgs e)
         {
-            // Altera a seleção dos radio buttons para false
-            rdbtnSoma.Checked = false;
-            rdbtnSubtrair.Checked = false;
-            rdbtnMultiplicar.Checked = false;
-            rdbtnDividir.Checked = false;
-
-            // Limpa os valores dentro das caixas de texto
-            txtbNum1.Clear();
-            txtbNum2.Clear();
-            txtbResposta.Clear();
-
-            txtbNum1.Focus();
+            desabilitarLimparCampos();
         }
 
         private void btnSair_Click(object sender, EventArgs e)

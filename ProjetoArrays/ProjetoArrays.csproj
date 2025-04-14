@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C550CDC2-19A3-43B1-AFE6-41DC478096D1}</ProjectGuid>
+    <ProjectGuid>{FD1BF454-ADBC-4733-913F-D2D32B42C936}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ProjetoOrientacaoObjeto</RootNamespace>
-    <AssemblyName>ProjetoOrientacaoObjeto</AssemblyName>
+    <RootNamespace>ProjetoArrays</RootNamespace>
+    <AssemblyName>ProjetoArrays</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,56 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculadora.cs" />
-    <Compile Include="frmExecutaObjeto.cs">
+    <Compile Include="frmVetores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmExecutaObjeto.Designer.cs">
-      <DependentUpon>frmExecutaObjeto.cs</DependentUpon>
+    <Compile Include="frmVetores.Designer.cs">
+      <DependentUpon>frmVetores.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmExecutaPessoa.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmExecutaPessoa.Designer.cs">
-      <DependentUpon>frmExecutaPessoa.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmJogoDaVelha.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmJogoDaVelha.Designer.cs">
-      <DependentUpon>frmJogoDaVelha.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmProdutos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmProdutos.Designer.cs">
-      <DependentUpon>frmProdutos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmRepeticao.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmRepeticao.Designer.cs">
-      <DependentUpon>frmRepeticao.cs</DependentUpon>
-    </Compile>
-    <Compile Include="JogoDaVelha.cs" />
-    <Compile Include="Pessoa.cs" />
-    <Compile Include="Produtos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmExecutaObjeto.resx">
-      <DependentUpon>frmExecutaObjeto.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmExecutaPessoa.resx">
-      <DependentUpon>frmExecutaPessoa.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmJogoDaVelha.resx">
-      <DependentUpon>frmJogoDaVelha.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmProdutos.resx">
-      <DependentUpon>frmProdutos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmRepeticao.resx">
-      <DependentUpon>frmRepeticao.cs</DependentUpon>
+    <EmbeddedResource Include="frmVetores.resx">
+      <DependentUpon>frmVetores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

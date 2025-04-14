@@ -11,3 +11,4 @@ C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\ProjetoOrient
 C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\ProjetoOrientacaoObjeto\obj\Debug\ProjetoOrientacaoObjeto.frmExecutaPessoa.resources
 C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\ProjetoOrientacaoObjeto\obj\Debug\ProjetoOrientacaoObjeto.frmProdutos.resources
 C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\ProjetoOrientacaoObjeto\obj\Debug\ProjetoOrientacaoObjeto.frmRepeticao.resources
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\ProjetoOrientacaoObjeto\obj\Debug\ProjetoOrientacaoObjeto.frmJogoDaVelha.resources

@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{774AFE0D-5DC3-43F2-B82B-7EB1A79C8D83}|Padaria\\Padaria.csproj|c:\\users\\matheus.sanselmo1\\documents\\visual studio 2022\\c--padaria\\padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{774AFE0D-5DC3-43F2-B82B-7EB1A79C8D83}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD1BF454-ADBC-4733-913F-D2D32B42C936}|ProjetoArrays\\ProjetoArrays.csproj|c:\\users\\matheus.sanselmo1\\documents\\visual studio 2022\\c--padaria\\projetoarrays\\frmvetores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1BF454-ADBC-4733-913F-D2D32B42C936}|ProjetoArrays\\ProjetoArrays.csproj|solutionrelative:projetoarrays\\frmvetores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{774AFE0D-5DC3-43F2-B82B-7EB1A79C8D83}|Padaria\\Padaria.csproj|c:\\users\\matheus.sanselmo1\\documents\\visual studio 2022\\c--padaria\\padaria\\calculadora2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{774AFE0D-5DC3-43F2-B82B-7EB1A79C8D83}|Padaria\\Padaria.csproj|solutionrelative:padaria\\calculadora2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{774AFE0D-5DC3-43F2-B82B-7EB1A79C8D83}|Padaria\\Padaria.csproj|c:\\users\\matheus.sanselmo1\\documents\\visual studio 2022\\c--padaria\\padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{774AFE0D-5DC3-43F2-B82B-7EB1A79C8D83}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FD1BF454-ADBC-4733-913F-D2D32B42C936}|ProjetoArrays\\ProjetoArrays.csproj|c:\\users\\matheus.sanselmo1\\documents\\visual studio 2022\\c--padaria\\projetoarrays\\frmvetores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD1BF454-ADBC-4733-913F-D2D32B42C936}|ProjetoArrays\\ProjetoArrays.csproj|solutionrelative:projetoarrays\\frmvetores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Calculadora2.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\Padaria\\Calculadora2.cs",
-              "RelativeDocumentMoniker": "Padaria\\Calculadora2.cs",
-              "ToolTip": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\Padaria\\Calculadora2.cs",
-              "RelativeToolTip": "Padaria\\Calculadora2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T14:37:16.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmCalculadora.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\Padaria\\frmCalculadora.cs",
-              "RelativeDocumentMoniker": "Padaria\\frmCalculadora.cs",
-              "ToolTip": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\Padaria\\frmCalculadora.cs",
-              "RelativeToolTip": "Padaria\\frmCalculadora.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCMAAAAtAAAAAAAAAA==",
+              "Title": "frmVetores.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\ProjetoArrays\\frmVetores.cs",
+              "RelativeDocumentMoniker": "ProjetoArrays\\frmVetores.cs",
+              "ToolTip": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\ProjetoArrays\\frmVetores.cs",
+              "RelativeToolTip": "ProjetoArrays\\frmVetores.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAIAwwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T14:19:08.205Z",
+              "WhenOpened": "2025-04-14T14:20:57.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmCalculadora.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\Padaria\\frmCalculadora.cs",
-              "RelativeDocumentMoniker": "Padaria\\frmCalculadora.cs",
-              "ToolTip": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\Padaria\\frmCalculadora.cs [Design]",
-              "RelativeToolTip": "Padaria\\frmCalculadora.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "frmVetores.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\ProjetoArrays\\frmVetores.cs",
+              "RelativeDocumentMoniker": "ProjetoArrays\\frmVetores.cs",
+              "ToolTip": "C:\\Users\\matheus.sanselmo1\\Documents\\Visual Studio 2022\\c--padaria\\ProjetoArrays\\frmVetores.cs [Design]",
+              "RelativeToolTip": "ProjetoArrays\\frmVetores.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T14:18:10.581Z",
+              "WhenOpened": "2025-04-14T14:09:47.926Z",
               "EditorCaption": " [Design]"
             }
           ]
