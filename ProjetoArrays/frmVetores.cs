@@ -17,9 +17,16 @@ namespace ProjetoArrays
             InitializeComponent();
         }
 
-        private void btnCarregar_Click(object sender, EventArgs e)
+        public void carregaVetor()
         {
-            string[] nomes = new string[10];
+            int listaTamanho = int.Parse(txtTamanho.Text);
+
+            string[] nomes = new string[listaTamanho];
+
+            for (int i = 0; i < nomes.Length; i++)
+            {
+
+            }
 
             //nomes[0] = "Eudardo";
             //nomes[1] = "Giovanne";
@@ -32,13 +39,23 @@ namespace ProjetoArrays
             //nomes[8] = "Dharla";
             //nomes[9] = "Pedro";
 
+        }
 
+        private void btnCarregar_Click(object sender, EventArgs e)
+        {
+            carregaVetor();
+        }
 
-            ltbNomes.Items.Clear();
-
-            for (int i = 0; i < 10; i++)
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            try
             {
-                ltbNomes.Items.Add(nomes[i]);
+                ltbNomes.Items.RemoveAt(ltbNomes.SelectedIndex);
+            }
+            catch (Exception) 
+            {
+                MessageBox.Show("Nenhum item foi selecionado!","Mensagem do sistema",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
             }
         }
     }
