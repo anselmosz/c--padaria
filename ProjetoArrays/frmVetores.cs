@@ -15,35 +15,28 @@ namespace ProjetoArrays
         public frmVetores()
         {
             InitializeComponent();
+            int a = int.Parse(txtTamanho.Text);
         }
-
-        public void carregaVetor()
-        {
-            int listaTamanho = int.Parse(txtTamanho.Text);
-
-            string[] nomes = new string[listaTamanho];
-
-            for (int i = 0; i < nomes.Length; i++)
-            {
-
-            }
-
-            //nomes[0] = "Eudardo";
-            //nomes[1] = "Giovanne";
-            //nomes[2] = "Larissa";
-            //nomes[3] = "Matheus";
-            //nomes[4] = "Hugo";
-            //nomes[5] = "Edna";
-            //nomes[6] = "Raphaela";
-            //nomes[7] = "João";
-            //nomes[8] = "Dharla";
-            //nomes[9] = "Pedro";
-
-        }
+            static int a;
+            int i = 0;
+            string[] nomes = new string[a];
 
         private void btnCarregar_Click(object sender, EventArgs e)
         {
-            carregaVetor();
+            //a = int.Parse(txtTamanho.Text);
+
+            nomes[a] = txtNome.Text;
+            txtNome.Clear();
+            txtNome.Focus();
+
+            if (a == 4)
+            {
+                for (int i = 0; i < nomes.Length; i++)
+                {
+                    ltbNomes.Items.Add(nomes[i]);
+                }
+            }
+            a++;
         }
 
         private void btnLimpar_Click(object sender, EventArgs e)

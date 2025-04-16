@@ -33,10 +33,10 @@
             this.btnCarregar = new System.Windows.Forms.Button();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.lblNome = new System.Windows.Forms.Label();
-            this.txtTamanho = new System.Windows.Forms.TextBox();
-            this.lblTamanho = new System.Windows.Forms.Label();
             this.ltbNomes = new System.Windows.Forms.ListBox();
             this.lblListaNomes = new System.Windows.Forms.Label();
+            this.txtTamanho = new System.Windows.Forms.TextBox();
+            this.lblTamanho = new System.Windows.Forms.Label();
             this.gpbNomes.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -99,23 +99,6 @@
             this.lblNome.TabIndex = 4;
             this.lblNome.Text = "Digite um nome";
             // 
-            // txtTamanho
-            // 
-            this.txtTamanho.Location = new System.Drawing.Point(17, 51);
-            this.txtTamanho.MaxLength = 5;
-            this.txtTamanho.Name = "txtTamanho";
-            this.txtTamanho.Size = new System.Drawing.Size(72, 26);
-            this.txtTamanho.TabIndex = 0;
-            // 
-            // lblTamanho
-            // 
-            this.lblTamanho.AutoSize = true;
-            this.lblTamanho.Location = new System.Drawing.Point(13, 28);
-            this.lblTamanho.Name = "lblTamanho";
-            this.lblTamanho.Size = new System.Drawing.Size(130, 20);
-            this.lblTamanho.TabIndex = 2;
-            this.lblTamanho.Text = "Tamanho da lista";
-            // 
             // ltbNomes
             // 
             this.ltbNomes.FormattingEnabled = true;
@@ -133,6 +116,23 @@
             this.lblListaNomes.Size = new System.Drawing.Size(119, 20);
             this.lblListaNomes.TabIndex = 0;
             this.lblListaNomes.Text = "Lista de Nomes";
+            // 
+            // txtTamanho
+            // 
+            this.txtTamanho.Location = new System.Drawing.Point(17, 51);
+            this.txtTamanho.MaxLength = 5;
+            this.txtTamanho.Name = "txtTamanho";
+            this.txtTamanho.Size = new System.Drawing.Size(72, 26);
+            this.txtTamanho.TabIndex = 0;
+            // 
+            // lblTamanho
+            // 
+            this.lblTamanho.AutoSize = true;
+            this.lblTamanho.Location = new System.Drawing.Point(13, 28);
+            this.lblTamanho.Name = "lblTamanho";
+            this.lblTamanho.Size = new System.Drawing.Size(130, 20);
+            this.lblTamanho.TabIndex = 2;
+            this.lblTamanho.Text = "Tamanho da lista";
             // 
             // frmVetores
             // 
@@ -154,13 +154,13 @@
         #endregion
 
         private System.Windows.Forms.GroupBox gpbNomes;
-        private System.Windows.Forms.TextBox txtTamanho;
-        private System.Windows.Forms.Label lblTamanho;
         private System.Windows.Forms.ListBox ltbNomes;
         private System.Windows.Forms.Label lblListaNomes;
         private System.Windows.Forms.Button btnCarregar;
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.Button btnLimpar;
+        private System.Windows.Forms.TextBox txtTamanho;
+        private System.Windows.Forms.Label lblTamanho;
     }
 }
