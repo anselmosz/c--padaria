@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmBoletimDosAlunos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBoletimDosAlunos.Designer.cs">
+      <DependentUpon>frmBoletimDosAlunos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMatriz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMatriz.Designer.cs">
+      <DependentUpon>frmMatriz.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmNumAleatorio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +72,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmBoletimDosAlunos.resx">
+      <DependentUpon>frmBoletimDosAlunos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMatriz.resx">
+      <DependentUpon>frmMatriz.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmNumAleatorio.resx">
       <DependentUpon>frmNumAleatorio.cs</DependentUpon>
     </EmbeddedResource>

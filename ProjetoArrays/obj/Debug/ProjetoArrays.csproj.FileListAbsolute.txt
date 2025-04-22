@@ -9,3 +9,5 @@ C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\ProjetoArrays
 C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\ProjetoArrays\obj\Debug\ProjetoArrays.exe
 C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\ProjetoArrays\obj\Debug\ProjetoArrays.pdb
 C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\ProjetoArrays\obj\Debug\ProjetoArrays.frmNumAleatorio.resources
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\ProjetoArrays\obj\Debug\ProjetoArrays.frmMatriz.resources
+C:\Users\matheus.sanselmo1\Documents\Visual Studio 2022\c--padaria\ProjetoArrays\obj\Debug\ProjetoArrays.frmBoletimDosAlunos.resources
