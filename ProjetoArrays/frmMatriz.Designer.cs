@@ -32,11 +32,9 @@
             this.btnLimpar = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
             this.gpbListaMatries = new System.Windows.Forms.GroupBox();
-            this.lblLinha = new System.Windows.Forms.Label();
-            this.lblColuna = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.ltbMatriz = new System.Windows.Forms.ListBox();
+            this.txtNome = new System.Windows.Forms.TextBox();
+            this.lblLinha = new System.Windows.Forms.Label();
             this.gpbListaMatries.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -71,9 +69,7 @@
             // gpbListaMatries
             // 
             this.gpbListaMatries.Controls.Add(this.ltbMatriz);
-            this.gpbListaMatries.Controls.Add(this.textBox2);
-            this.gpbListaMatries.Controls.Add(this.textBox1);
-            this.gpbListaMatries.Controls.Add(this.lblColuna);
+            this.gpbListaMatries.Controls.Add(this.txtNome);
             this.gpbListaMatries.Controls.Add(this.lblLinha);
             this.gpbListaMatries.Controls.Add(this.btnLimpar);
             this.gpbListaMatries.Controls.Add(this.btnSair);
@@ -86,38 +82,6 @@
             this.gpbListaMatries.TabStop = false;
             this.gpbListaMatries.Text = "\'";
             // 
-            // lblLinha
-            // 
-            this.lblLinha.AutoSize = true;
-            this.lblLinha.Location = new System.Drawing.Point(25, 40);
-            this.lblLinha.Name = "lblLinha";
-            this.lblLinha.Size = new System.Drawing.Size(48, 20);
-            this.lblLinha.TabIndex = 3;
-            this.lblLinha.Text = "Linha";
-            // 
-            // lblColuna
-            // 
-            this.lblColuna.AutoSize = true;
-            this.lblColuna.Location = new System.Drawing.Point(25, 107);
-            this.lblColuna.Name = "lblColuna";
-            this.lblColuna.Size = new System.Drawing.Size(59, 20);
-            this.lblColuna.TabIndex = 4;
-            this.lblColuna.Text = "Coluna";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(90, 37);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 26);
-            this.textBox1.TabIndex = 5;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(90, 107);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 26);
-            this.textBox2.TabIndex = 6;
-            // 
             // ltbMatriz
             // 
             this.ltbMatriz.FormattingEnabled = true;
@@ -127,6 +91,22 @@
             this.ltbMatriz.Size = new System.Drawing.Size(183, 224);
             this.ltbMatriz.TabIndex = 7;
             // 
+            // txtNome
+            // 
+            this.txtNome.Location = new System.Drawing.Point(90, 37);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(100, 26);
+            this.txtNome.TabIndex = 5;
+            // 
+            // lblLinha
+            // 
+            this.lblLinha.AutoSize = true;
+            this.lblLinha.Location = new System.Drawing.Point(25, 40);
+            this.lblLinha.Name = "lblLinha";
+            this.lblLinha.Size = new System.Drawing.Size(48, 20);
+            this.lblLinha.TabIndex = 3;
+            this.lblLinha.Text = "Linha";
+            // 
             // frmMatriz
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -134,7 +114,7 @@
             this.ClientSize = new System.Drawing.Size(448, 513);
             this.Controls.Add(this.gpbListaMatries);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmMatriz";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Matrizes";
@@ -151,9 +131,7 @@
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.GroupBox gpbListaMatries;
         private System.Windows.Forms.ListBox ltbMatriz;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label lblColuna;
+        private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Label lblLinha;
     }
 }

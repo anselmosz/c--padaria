@@ -45,15 +45,11 @@
             this.txtNomeAluno = new System.Windows.Forms.TextBox();
             this.lblNomeDoAluno = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtQtdAlunos = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.gpbCadastroAlunos.SuspendLayout();
             this.SuspendLayout();
             // 
             // gpbCadastroAlunos
             // 
-            this.gpbCadastroAlunos.Controls.Add(this.txtQtdAlunos);
-            this.gpbCadastroAlunos.Controls.Add(this.label1);
             this.gpbCadastroAlunos.Controls.Add(this.button1);
             this.gpbCadastroAlunos.Controls.Add(this.textBox3);
             this.gpbCadastroAlunos.Controls.Add(this.lblNota4);
@@ -79,7 +75,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(349, 162);
+            this.button1.Location = new System.Drawing.Point(349, 187);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(166, 35);
             this.button1.TabIndex = 8;
@@ -160,7 +156,7 @@
             // 
             // btnRemover
             // 
-            this.btnRemover.Location = new System.Drawing.Point(576, 162);
+            this.btnRemover.Location = new System.Drawing.Point(576, 187);
             this.btnRemover.Name = "btnRemover";
             this.btnRemover.Size = new System.Drawing.Size(126, 35);
             this.btnRemover.TabIndex = 9;
@@ -192,7 +188,7 @@
             this.ltbAlunos.ItemHeight = 20;
             this.ltbAlunos.Location = new System.Drawing.Point(349, 52);
             this.ltbAlunos.Name = "ltbAlunos";
-            this.ltbAlunos.Size = new System.Drawing.Size(353, 104);
+            this.ltbAlunos.Size = new System.Drawing.Size(353, 124);
             this.ltbAlunos.TabIndex = 7;
             // 
             // txtNomeAluno
@@ -221,23 +217,6 @@
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Resumo do aluno";
-            // 
-            // txtQtdAlunos
-            // 
-            this.txtQtdAlunos.Location = new System.Drawing.Point(171, 120);
-            this.txtQtdAlunos.MaxLength = 100;
-            this.txtQtdAlunos.Name = "txtQtdAlunos";
-            this.txtQtdAlunos.Size = new System.Drawing.Size(114, 26);
-            this.txtQtdAlunos.TabIndex = 14;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(167, 97);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 20);
-            this.label1.TabIndex = 13;
-            this.label1.Text = "qtd alunos";
             // 
             // frmBoletimDosAlunos
             // 
@@ -274,7 +253,5 @@
         private System.Windows.Forms.Label lblNota3;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label lblNota2;
-        private System.Windows.Forms.TextBox txtQtdAlunos;
-        private System.Windows.Forms.Label label1;
     }
 }

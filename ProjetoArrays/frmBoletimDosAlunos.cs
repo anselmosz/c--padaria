@@ -15,30 +15,29 @@ namespace ProjetoArrays
         public frmBoletimDosAlunos()
         {
             InitializeComponent();
-            int a = int.Parse(txtQtdAlunos.Text);
         }
 
-        static int a;
-        int i = 0;
-        string[,] alunos = new string[a,a];
-        double[,] nota2 = new double[a,a];
-        double[,] nota3 = new double[a,a];
-        double[,] nota4 = new double[a,a];
+        int a, i, j = 0;
+        string[,] alunos = new string[3, 3];
+        double[,] nota1 = new double[3, 3];
+        double[,] nota2 = new double[3, 3];
+        double[,] nota3 = new double[3, 3];
+        double[,] nota4 = new double[3, 3];
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
-            alunos[a,a] = txtNomeAluno.Text;
-            txtNomeAluno.Clear();
-            txtNomeAluno.Focus();
 
-            if (a == 10)
+            for (int i = 0; i < 3; i++)
             {
-                for (int i = 0; i < alunos.Length; i++)
+                for (int j = 0; j < 3; j++)
                 {
-                    ltbAlunos.Items.Add(alunos[i,i]);
+                    alunos[i, j] = txtNomeAluno.Text;
                 }
             }
-            a++;
+            ltbAlunos.Items.Add(alunos[i, j]);
+            ltbAlunos.Items.Add("------");
+            txtNomeAluno.Clear();
+            txtNomeAluno.Focus();
         }
     }
 }
